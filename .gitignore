@@ -1,0 +1,11 @@
+.idea/
+__pycache__/
+build/
+main-template.py.test
+main.spec
+rus.txt
+venv/
+.DS_Store
+dist/
+main-template
+
