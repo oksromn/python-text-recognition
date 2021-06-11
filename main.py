@@ -166,7 +166,7 @@ def process_image(image_name, lang_code):
 
 while True:
     event, values = window.read()
-    image_regex = '^\/\S+.(png|jpg|jpeg)$'
+    image_regex = '\S+.(png|jpg|jpeg)$'
 
     file_path = values[0]
     lang_code = 'rus' if values[1] else 'eng'
